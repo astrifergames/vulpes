@@ -1,0 +1,165 @@
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.content {
+  background-color: #ddd;
+  padding: 10px;
+  height: 200px;
+  text-align: center;
+  }
+
+.contenthome {
+  background-image: url("banner.png");
+  padding: 10px;
+  margin: auto;
+  height: 350px; 
+  text-align: center;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+   overflow: hidden;
+  background-color: #333;
+}
+li {
+  display: inline;
+}
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  opacity: 65%;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: #228b22;
+}
+
+
+.button {
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px;
+	margin: 4px 2px;
+	cursor: pointer;
+	float: center;
+    }
+
+.button1 {background-color: #86BF2C;}
+	img {
+	max-width: 100%;
+	height: auto;
+	float: center;
+	}
+			
+.playnowbutton {
+	float: center;
+	text-align: center;
+	margin: auto;
+	width: 240px;
+}
+
+.homedesc {
+	text-align: center;
+}
+
+.row {
+	width: 1000px;
+	float: center;
+	text-align: center;
+	margin: auto;
+}
+.column:hover {
+	transition: transform .2s;
+	transform: scale(1.5);
+}
+.logos {
+	font-size: 15px;
+}
+
+.twitterlogos {
+	float: left;
+	width: 50px;
+}
+.instalogos {
+	float: left;
+	width: 50px;
+}
+
+.column2 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 600px) {
+  .column2 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 400px) {
+	.row {
+		width: 500px;
+	}
+	ul {
+		font-size: 14px;
+	}	
+@media only screen and (min-width: 700px) {
+	.row {
+		width: 700px;
+	}
+	ul {
+		font-size: 18px;
+	}
+@media only screen and (min-width: 997px) {
+	.row {
+		width: 870px;
+	}	
+	ul {
+		font-size: 21px;
+	}
+@media only screen and (min-width: 1300px) {
+	.row {
+		width: 1250px;
+	}		
+	ul {
+		font-size: 25px;
+	}
